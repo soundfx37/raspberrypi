@@ -10,7 +10,7 @@
 void save_image(CAMERA_INSTANCE camera_instance, const char *name) {
     IMAGE_FORMAT fmt = {IMAGE_ENCODING_JPEG, 50};
 //    IMAGE_FORMAT fmt = {IMAGE_ENCODING_I420, 50};
-//git test 1
+//git test 2
 
     BUFFER *buffer = D_capture(camera_instance, &fmt, 3000);
     if (!buffer) {
